@@ -11,6 +11,7 @@ body {
 section {
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .half-width {
@@ -45,4 +46,10 @@ h1 span {
 .half-width img {
     width: 100%;
     margin-top: -8px;
+}
+
+.my-resume {
+    background-image: url(background-image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
