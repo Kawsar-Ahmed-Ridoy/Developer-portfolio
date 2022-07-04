@@ -2,3 +2,47 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
+.top-banner {
+    background-image: url("background-image/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.half-width {
+    width: 40%;
+    padding: 0 5%;
+    margin: 14px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    color: rgb(255, 162, 0);
+}
+
+.half-width p {
+    color: rgb(97, 97, 97);
+    line-height: 25px;
+}
+
+.anchor-tag {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: white;
+    font-weight: 700;
+}
+
+.half-width img {
+    width: 100%;
+    margin-top: -8px;
+}
