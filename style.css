@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
 }
 
-section {
+.flexible-container {
     display: flex;
     justify-content: center;
     margin-bottom: 120px;
@@ -24,13 +24,17 @@ h1 {
     font-size: 50px;
 }
 
-h1 span {
+.orange-color {
     color: rgb(255, 162, 0);
 }
 
 .half-width p {
     color: rgb(97, 97, 97);
     line-height: 25px;
+}
+
+.half-width h3 {
+    font-size: 23px;
 }
 
 .anchor-tag {
@@ -52,4 +56,45 @@ h1 span {
     background-image: url(background-image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.my-experiences {
+    background-image: url(background-image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+h1.experiences {
+    font-size: 45px;
+}
+
+.experiences-item {
+    width: 35%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 30px;
+    padding: 0 35px;
+    border-left: 8px solid rgb(255 102 29 / 78%);
+}
+
+.blue-border {
+    width: 35%;
+    box-shadow: 10px 10px 40px gray;
+    margin: 0 30px;
+    padding: 0 35px;
+    border-left: 8px solid rgba(30, 1, 245, 0.78);
+}
+
+.experiences-item h1 {
+    font-size: 45px;
+}
+
+.flexible-container p {
+    color: rgb(97, 97, 97);
+    line-height: 25px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(97, 97, 97);
+    margin-bottom: 20px;
 }
